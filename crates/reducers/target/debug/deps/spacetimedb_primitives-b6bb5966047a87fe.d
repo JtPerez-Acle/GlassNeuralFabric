@@ -1,0 +1,10 @@
+/home/jt/open_source_contributions/GlassNeuralFabric/crates/reducers/target/debug/deps/libspacetimedb_primitives-b6bb5966047a87fe.rmeta: /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/lib.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/attr.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/col_list.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/ids.rs
+
+/home/jt/open_source_contributions/GlassNeuralFabric/crates/reducers/target/debug/deps/libspacetimedb_primitives-b6bb5966047a87fe.rlib: /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/lib.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/attr.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/col_list.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/ids.rs
+
+/home/jt/open_source_contributions/GlassNeuralFabric/crates/reducers/target/debug/deps/spacetimedb_primitives-b6bb5966047a87fe.d: /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/lib.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/attr.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/col_list.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/ids.rs
+
+/home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/lib.rs:
+/home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/attr.rs:
+/home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/col_list.rs:
+/home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-primitives-0.8.2/src/ids.rs:

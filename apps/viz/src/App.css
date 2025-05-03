@@ -1,0 +1,71 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #4285f4;
+}
+
+.app-header p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.app-content {
+  flex: 1;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.weight-graph-container {
+  height: calc(100% - 2rem);
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: #1a1a1a;
+}
+
+.weight-graph-container h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.2rem;
+  color: #f44336;
+}
+
+.app-footer {
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-top: 1px solid #333;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #aaa;
+}

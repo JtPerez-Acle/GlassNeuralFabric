@@ -1,0 +1,102 @@
+# NeuroSpacetime (Glass Neural Fabric) - Product Requirements Document
+
+## Project Overview
+NeuroSpacetime is a real-time neural network visualization and monitoring system that allows users to observe weight changes, activations, and other neural network dynamics during training. The system is designed to provide "glass brains, live" - a transparent view into neural network training processes.
+
+## Core Value Proposition
+- Real-time visualization of neural network training dynamics
+- Ability to monitor, debug, and understand neural network behavior during training
+- Time-travel capabilities to review historical weight changes and model snapshots
+- Support for multi-agent training environments
+
+## Technical Architecture
+The system consists of several key components:
+1. **Python Bridge**: Hooks into PyTorch training loops to capture weight changes and other metrics
+2. **SpacetimeDB**: Central database for storing and querying neural network state
+3. **Rust Reducers**: WASM-compiled functions for processing and analyzing neural network data
+4. **React Visualization UI**: Interactive frontend for visualizing neural network dynamics
+5. **Monitoring Tools**: Prometheus/Grafana integration for system metrics
+
+## Key Features
+
+### 1. Real-time Weight Visualization
+- Capture weight changes during training
+- Filter significant changes based on configurable thresholds
+- Visualize weight changes in a graph view
+- Support for time-travel to review historical weight changes
+
+### 2. Model Snapshots
+- Capture model state at significant points during training
+- Track affected weights and reasons for snapshots
+- Allow comparison between snapshots
+
+### 3. Neural Network Introspection
+- Visualization of network architecture
+- Monitoring of activations and gradients
+- Anomaly detection for gradient issues
+
+### 4. Multi-Agent Support
+- Track weight changes from multiple training agents
+- Visualize agent interactions and conflicts
+- Cross-model analytics
+
+### 5. Developer Experience
+- Simple integration with existing PyTorch training loops
+- Comprehensive CLI tools for setup and management
+- Hot-reload capabilities for reducers
+
+## Technical Requirements
+
+### Language Stacks
+- Rust 1.79+ for server and reducers
+- Python 3.11 for model bridge
+- TypeScript 5.5 with React + Vite for visualization
+
+### Core Dependencies
+- SpacetimeDB SDK (^0.4)
+- Rust: tokio, serde, tracing
+- Python: torch, requests, websockets
+- TypeScript: @cytoscape/react-cytoscapejs, zustand, d3-time
+
+### Development Tools
+- just, cargo-make, ruff, pre-commit, GitHub Actions
+
+## Performance Requirements
+- Support for high event rates (up to 50k/s for deep networks)
+- Efficient batching in the bridge (500ms-1s)
+- Fast database inserts (30k-100k/s)
+- Maintain UI responsiveness (45-60 FPS)
+
+## Deployment Requirements
+- Docker containerization
+- Helm chart for Kubernetes deployment
+- TLS and authentication
+- Horizontal scaling capabilities
+
+## Project Timeline
+1. **MVP (Weeks 0-1)**
+   - Implement weight and snapshot entities
+   - Create bridge hook proof of concept
+   - Develop graph view with live updates
+
+2. **Introspection v2 (Weeks 2-3)**
+   - Add activation entities
+   - Implement gradient anomaly detection
+   - Set up Prometheus exporter
+
+3. **Multi-Agent Fabric (Weeks 4-6)**
+   - Add agent ID tracking
+   - Visualize agent collisions
+   - Develop cross-model analytics API
+
+4. **Production Hardening (Weeks 7-8)**
+   - Implement TLS and authentication
+   - Set up horizontal sharding
+   - Create Helm chart for deployment
+
+## Success Criteria
+- Successful integration with standard PyTorch training loops
+- Real-time visualization with acceptable performance
+- Ability to debug neural network training issues
+- Support for multi-agent training environments
+- Production-ready deployment options

@@ -1,0 +1,9 @@
+/home/jt/open_source_contributions/GlassNeuralFabric/crates/reducers/target/debug/deps/libspacetimedb_bindings_macro-ec9658815f624e39.so: /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/lib.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/reducer.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/sats.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/table.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/util.rs
+
+/home/jt/open_source_contributions/GlassNeuralFabric/crates/reducers/target/debug/deps/spacetimedb_bindings_macro-ec9658815f624e39.d: /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/lib.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/reducer.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/sats.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/table.rs /home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/util.rs
+
+/home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/lib.rs:
+/home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/reducer.rs:
+/home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/sats.rs:
+/home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/table.rs:
+/home/jt/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spacetimedb-bindings-macro-1.1.1/src/util.rs:
